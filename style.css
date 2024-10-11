@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: red;
+    font-family: "Peralta", serif;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    font-size: 25px;
+}
+
+button{
+    background-color: red;
+    color: black;
+    font-family: "Peralta", serif;
+    font-size: 25px;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 100%;
+}
